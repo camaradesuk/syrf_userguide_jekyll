@@ -1,7 +1,7 @@
 ---
 title: "7th Aug 2023: Project Membership & Invitation"
 has_children: false
-nav_order: 2
+nav_order: 3
 parent: What's New!
 layout: page
 permalink: whats-new/07-08-2023-project-member

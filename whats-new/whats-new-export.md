@@ -1,7 +1,7 @@
 ---
 title: "14th Sep 2022: Data Export"
 has_children: false
-nav_order: 5
+nav_order: 6
 parent: What's New!
 layout: page
 permalink: whats-new/14-09-22-data-export
