@@ -8,7 +8,7 @@ layout: page
 
 # Project Overview 
 
-You can monitor the progress of the project in the Overview tab, which is found under each stage on the left-side menu.  
+Monitor project progress, including screening and annotation completion levels, in the Overview tab under each stage in the left-side menu.
 
 ## Screening stage 
 
@@ -16,7 +16,12 @@ You can monitor the progress of the project in the Overview tab, which is found 
 
 Two chart views are available: 
 
-- Without “Show screening decisions” - Displays project progress by screening stage.
+- Without “Show screening decisions” - Displays the proportion of studies at different screening stages:
+
+    - Not screened
+    - Screened by 1 or 2 reviewers
+    - Reconciled
+    - Over screened
 
 
 
@@ -24,7 +29,7 @@ Two chart views are available:
 
 
 
-- With “Show screening decisions” - Adds inclusion/exclusion details and disagreements in overscreened studies.
+- With “Show screening decisions” - Adds inclusion/exclusion details and disagreement proportions in over screened studies.
 
 
 
@@ -40,11 +45,11 @@ Hover over any pie chart slice for exact study counts.
 
 
 
-#### Screening Leaderboard
+### Screening Leaderboard
 
 
 
-Below, the "Screening Leaderboard" provides individual user screening activity.
+Below, the "Screening Leaderboard" table provides detailed screening activity per user.
 
 
 
@@ -54,14 +59,29 @@ Below, the "Screening Leaderboard" provides individual user screening activity.
 
 ### Single screening 
 
-Similar information is available when single screening is selected instead of dual screening. The simplified version of the chart displays the proportion of studies not screened, single screened and overscreened, whereas the detailed version provides additional information on screening decision. 
+Similar charts are available for single screening:
 
 
-# Annotation stage 
+- Basic view – Displays studies that are:
+    - Not Screened
+    - Screened once
+    - Over Screened
 
-Two versions of the chart detailing the annotation progress are available to view:  
 
-- When “Show all” is turned off, a simplified version of the chart displays the proportion of studies with 0, 1 or 2 fully completed reviews, as well as overannotated studies.  
+- Detailed view – Includes screening decisions
+
+
+
+## Annotation stage 
+
+Two chart views are available:   
+
+- Without "Show all" – Shows the proportion of studies with:
+
+    - 0 Completed Reviews
+    - 1 Completed Review
+    - 2 Completed Reviews
+    - Over Annotated studies
 
 
 
@@ -69,7 +89,9 @@ Two versions of the chart detailing the annotation progress are available to vie
 
 
 
-- When “Show all” is turned on, the more comprehensive version of the chart displays the proportion of studies with 0, 1, 2 or ≥ 3 complete (green circle) or incomplete (yellow circle) sessions. In this chart, a complete session is equivalent to a fully completed review, whereas an incomplete session refers to a review in progress (a review started and saved but not completed).
+- With "Show all" – Breaks down studies into:
+    - Complete (green) sessions
+    - Incomplete (orange) sessions; meaning a review was started but not finished
 
  
 
@@ -77,26 +99,28 @@ Two versions of the chart detailing the annotation progress are available to vie
 
 
 
-You can hover over each pie chart slice in both views to get more detailed information on the exact number of studies in each section. When the "Show all" is turned on, you can also see the number of incomplete and/or incomplete sessions for each section.
+Hover over chart slices for detailed counts. When "Show all" is enabled, incomplete session counts are also displayed.
 
 
 
 ![alttext](figs/Fig_Project-Stats_Annotation3_CSI.png)     ![alttext](figs/Fig_Project-Stats_Annotation4_CSI.png)
 
 
+### Annotation Leaderboard
 
-Further down below, you can also see the "Annotation Leaderboard" table, which provides more detailed information on each user's annotation activity.
+
+Below, the "Annotation Leaderboard" table provides detailed annotation activity per user.
 
 
 
 ![alttext](figs/Fig_Project-Stats_Annotation-table_CSI.png)
 
 
+## Review Completion Criteria
 
-Studies are considered to have no completed reviews if they have 0 complete sessions or up to 2 incomplete sessions. Studies are considered to have 1 completed review if they have 1 complete session ± 1 incomplete session. Studies are considered to have 2 completed reviews if they have 2 complete sessions. Finally, studies are considered overannotated if they have ≥ 3 complete/incomplete sessions. This is summarised in the table below:  
 
 
-| “Show all” off         | “Show all” on                                      |
+| Without “Show all”         | With “Show all”                                      |
 |------------------------|---------------------------------------------------|
 | No completed review   | No complete or incomplete session                 |
 |                        | 1 incomplete and 0 complete sessions              |
@@ -111,4 +135,4 @@ Studies are considered to have no completed reviews if they have 0 complete sess
 
 
 
-This feature is optimised for stages where [the setting](../stage-settings.html) "Required Annotators per Study" is set to 2 (i.e., studies with 3 or more annotators count as overannotated).
+This feature is optimised for stages where [the setting](../stage-settings.html) "Required Annotators per Study" is set to 2 (i.e., studies with ≥ 3 annotators count as over annotated).
