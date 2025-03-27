@@ -6,17 +6,17 @@ layout: page
 ---
 
 
-# Project overview 
+# Project Overview 
 
-You can monitor the progress of the project, including the level of completion of the screening and annotation stages, in the Overview tab, which is found under the tab for each stage in the left-side menu.  
+You can monitor the progress of the project in the Overview tab, which is found under each stage on the left-side menu.  
 
 ## Screening stage 
 
 ### Dual screening 
 
-Two versions of the chart detailing the dual screening progress are available to view: 
+Two chart views are available: 
 
-- When “Show screening decisions” is turned off, the chart displays the proportion of studies not screened, screened by 1 reviewer, screened by 2 reviewers who agreed, screened by 2 reviewers who disagreed (requiring reconciliation), screened by 3 reviewers (reconciled), and overscreened studies (screened by more than 3 reviewers).  
+- Without “Show screening decisions” - Displays project progress by screening stage.
 
 
 
@@ -24,7 +24,7 @@ Two versions of the chart detailing the dual screening progress are available to
 
 
 
-- When “Show screening decisions” is turned on, the chart provides additional information for studies that have undergone screening, including details on whether they have been excluded or included, as well as the proportion of overscreened studies for which the reviewers disagreed. 
+- With “Show screening decisions” - Adds inclusion/exclusion details and disagreements in overscreened studies.
 
 
 
@@ -32,7 +32,7 @@ Two versions of the chart detailing the dual screening progress are available to
 
 
 
-You can hover over each pie chart slice in both views to get more detailed information on the exact number of studies in each section.
+Hover over any pie chart slice for exact study counts.
 
 
 
@@ -44,7 +44,7 @@ You can hover over each pie chart slice in both views to get more detailed infor
 
 
 
-Further down below, you can also see the "Screening Leaderboard" table, which provides more detailed information on each user's screening activity.
+Below, the "Screening Leaderboard" provides individual user screening activity.
 
 
 
