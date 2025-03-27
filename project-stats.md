@@ -116,7 +116,7 @@ Below, the "Annotation Leaderboard" table provides detailed annotation activity 
 ![alttext](figs/Fig_Project-Stats_Annotation-table_CSI.png)
 
 
-## Review Completion Criteria 
+## Review Completion Criteria  
 
 
 
