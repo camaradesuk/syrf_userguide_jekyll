@@ -8,7 +8,12 @@ permalink: whats-new
 
 # Bulk Update Study 
 
-We have added a [data-export](../data-export.html) feature which allows bibliographic, screening, and annotation data to be downloaded in .csv format. 
+We have added a [data-export](../systematic-search.html) feature which allows you to update certain properties of the studies of your project:
 
-![Data export location](/figs/Fig_ExportData_small.png)
+    - PDF relative path
+    - Custom ID
+    - Individual screenings
+    - Screening decisions
+
+![Bulk Update Studies](/figs/Fig_Bulk-Update-Studies.png)
 

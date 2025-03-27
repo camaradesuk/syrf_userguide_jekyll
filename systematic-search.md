@@ -112,12 +112,19 @@ For more information on renaming files in Endnote please visit [Endnote's websit
 You can now view project studies by clicking on the ‘Studies’ then 'All Studies' on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
 
 ## Bulk Update Studies feature
-You can update certain properties of the studies of you projec:
+You can update certain properties of the studies of your project:
+
     - PDF relative path
     - Custom ID
-    - 
+    - Individual screenings
+    - Screening decisions
+
 
 Click 'Studies' --> 'All Studies' --> three dots at the top, next to the magnifying glass --> 'Bulk update studies...'. Make sure you follow the formatting instructions presented.
+
+
+![alttext](figs/Fig_Bulk-Update-Studies.png)
+
 
 ## Deleting Systematic Searches
 If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
