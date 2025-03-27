@@ -139,8 +139,8 @@ Click "Data Export" on the left-hand side --> "Bibliographic" (Make sure that "S
 You will then be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply.
 
 
-
-
+![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Update-Studies-Screening.png)
+ 
 
 ## Deleting Systematic Searches
 If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
