@@ -84,7 +84,7 @@ Please note that you cannot use the 'EndNote XML' export option in Zotero to upl
 7. Files must first be saved as CSV - Comma delimited (\*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog. 
 
 
-![alttext](figs/save_csv.png)
+![Save CSV](figs/save_csv.png)
 
 
 ## Uploading Full-Text PDFs
@@ -120,10 +120,26 @@ You can update certain properties of the studies of your project:
     - Screening decisions
 
 
-Click 'Studies' --> 'All Studies' --> three dots at the top, next to the magnifying glass --> 'Bulk update studies...'. Make sure you follow the formatting instructions presented.
+Click "Studies" --> "All Studies" --> three dots at the top, next to the magnifying glass --> "Bulk update studies...". Make sure you follow the formatting instructions presented.
+
+Keep in mind:
+- Include a column for Study ID
+- All other columns will be 
+- Limit your feature upload to the columns which are relevant to what you want to update 
 
 
-![alttext](figs/Fig_Bulk-Update-Studies.png)
+![Bulk Update Studies](figs/Fig_Bulk-Update-Studies.png)
+
+
+If you do not have the Study ID:
+
+Click "Data Export" on the left-hand side --> "Bibliographic" (Make sure that "SyRF systematic search import compatible format" is *un*ticked so Study ID is included) --> "DOWNLOAD DATA"
+
+
+You will then be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply.
+
+
+
 
 
 ## Deleting Systematic Searches
