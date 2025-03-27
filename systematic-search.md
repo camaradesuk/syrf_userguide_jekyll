@@ -54,7 +54,7 @@ Please note that you cannot use the 'EndNote XML' export option in Zotero to upl
 ### Spreadsheet (\*.csv supported)
 *Optionally including screening decisions*
 
-1. You can upload study references as a systematic search from a spreadsheet (e.g. Microsoft Excel Document). This needs to be saved with the extension ".csv" (as explained below in point 7) for uploading purposes.
+1. You can upload study references as a systematic search from a spreadsheet (e.g., Microsoft Excel Document). This needs to be saved with the extension ".csv" (as explained below in point 7) for uploading purposes.
 
 2. You will have to make sure your file has the following column headings to make the upload work: 
     * Title
@@ -62,14 +62,14 @@ Please note that you cannot use the 'EndNote XML' export option in Zotero to upl
     * PublicationName
     * AlternateName
     * Abstract
-    * Url
+    * URL
     * AuthorAddress
     * Year
-    * Doi
+    * DOI
     * ReferenceType
     * Keywords
-    * PdfRelativePath
-    * CustomId
+    * PDFRelativePath
+    * CustomID
 
     **You can download a template with the correct column headings and example data [here](https://syrf.org.uk/assets/pdfs/Example_systematic_search_upload.csv).**
 
@@ -110,6 +110,14 @@ For more information on renaming files in Endnote please visit [Endnote's websit
 
 ## View Project Studies
 You can now view project studies by clicking on the ‘Studies’ then 'All Studies' on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
+
+## Bulk Update Studies feature
+You can update certain properties of the studies of you projec:
+    - PDF relative path
+    - Custom ID
+    - 
+
+Click 'Studies' --> 'All Studies' --> three dots at the top, next to the magnifying glass --> 'Bulk update studies...'. Make sure you follow the formatting instructions presented.
 
 ## Deleting Systematic Searches
 If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
