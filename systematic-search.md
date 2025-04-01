@@ -22,7 +22,7 @@ layout: page
 <br/>
 
 ## Deduplicating your Systematic Search
-If you have searched for studies using multiple databases there will be duplicate studies in your systematic search. Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the [ASySD deduplication tool](https://camarades.shinyapps.io/RDedup/).
+If you have searched for studies using multiple databases there will be duplicate studies in your systematic search. Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the [ASySD deduplication tool](https://camarades.shinyapps.io/ASySD/).
 
 ## Uploading Files	
 A Project Administrator can upload a systematic search to your project by selecting Systematic Searches from Project Settings and clicking "Upload New Systematic Search".
@@ -54,33 +54,41 @@ Please note that you cannot use the 'EndNote XML' export option in Zotero to upl
 ### Spreadsheet (\*.csv supported)
 *Optionally including screening decisions*
 
-1. You can upload study references as a systematic search from a spreadsheet (e.g. Microsoft Excel Document)  
+1. You can upload study references as a systematic search from a spreadsheet (e.g., Microsoft Excel Document). This needs to be saved with the extension ".csv" (as explained below in point 7) for uploading purposes.
+
 2. You will have to make sure your file has the following column headings to make the upload work: 
     * Title
     * Authors
     * PublicationName
     * AlternateName
     * Abstract
-    * Url
+    * URL
     * AuthorAddress
     * Year
-    * Doi
+    * DOI
     * ReferenceType
     * Keywords
-    * PdfRelativePath
-    * CustomId
+    * PDFRelativePath
+    * CustomID
 
     **You can download a template with the correct column headings and example data [here](https://syrf.org.uk/assets/pdfs/Example_systematic_search_upload.csv).**
 
-3. Even if you don't have information for all the columns specified, **they will need to be in your file** to make the upload work. SyRF will accept empty fields for any of these variables.
+3. Even if you don't have information for all the columns specified, **they will need to be in your file** to make the upload work. SyRF will accept empty fields for any of these variables. Most importantly, there should be two columns, one with the study ID and the PDF path (as explained below in the "Uploading Full-Text PDFs section).
+
 4. If you would like to upload **screening decisions** already made outside of SyRF along with list of studies, you should **add separate columns for each user** and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.
+
 5. Within screening columns decisions should be represented with the value **1 for inclusion and 0 for exclusion**.
+
 6. Your file should **only** contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail. 
+
 7. Files must first be saved as CSV - Comma delimited (\*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog. 
 
-![alttext](figs/save_csv.png)
+
+![Save CSV](figs/save_csv.png)
+
 
 ## Uploading Full-Text PDFs
+
 If you require full-text PDFs for each of your studies at any stage of your SyRF project, __it is important that you have already retrieved these full-text PDFs before uploading your search file__, as they cannot be retroactively uploaded. 
 
 
@@ -101,7 +109,39 @@ For more information on renaming files in Endnote please visit [Endnote's websit
 [Check out the FAQ](https://syrf.org.uk/faq)
 
 ## View Project Studies
-You can now view project studies by clicking on the ‘Studies’ then 'All Studies' on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
+You can now view project studies by clicking on the "Sudies" then "All Studies" on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
+
+## Bulk Update Studies feature
+You can update certain properties of the studies of your project:
+
+    - PDF relative path
+    - Custom ID
+    - Individual screenings
+    - Screening decisions
+
+
+To do this, click "Studies" --> "All Studies" --> three dots at the top, next to the magnifying glass --> "Bulk update studies...". Make sure you follow the formatting instructions presented.
+
+Keep in mind:
+- Including a column for Study ID is mandatory
+- You must also include at least one extra column. For example, customID
+- All other columns will be assumed to hold screening decisions
+- Limit your feature upload to the columns which are relevant to what you want to update 
+
+
+![Bulk Update Study References](figs/Fig_Bulk-Update-Study.png) 
+
+
+If you do not have the Study ID:
+
+Click "Data Export" on the left-hand side --> "Bibliographic" (Make sure that "SyRF systematic search import compatible format" is *un*ticked so Study ID is included) --> "DOWNLOAD DATA"
+
+
+You will then be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply.
+
+
+![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Update-Study-Screening.png)
+ 
 
 ## Deleting Systematic Searches
 If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
