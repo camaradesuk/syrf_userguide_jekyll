@@ -1,21 +1,21 @@
 ---
-title: "November 2023: Advanced Annotation Settings"
+title: "September 2024: Advanced Annotation Settings"
 has_children: false
 nav_order: 1
 parent: What's New!
 layout: page
-permalink: whats-new/11-23-advanced-annotation
+permalink: whats-new/09-24-advanced-annotation
 ---
 
 # Advanced Annotation Settings
  
 We have added a [data-export](../data-export.html) feature which allows bibliographic, screening, and annotation data to be downloaded in .csv format. 
 
-We have updated SyRF’s functionality for stage annotation settings.  
+We have updated SyRF’s functionality for stage annotation settings, especially in the "Advanced Annotation Settings" section.
 
 Project administrators have further configuration control over: 
-* Advanced stage settings, specifically annotation settings
+* Advanced stage settings, specifically annotation settings. For example, "Limit Incomplete Sessions" where project administrators can now limit how many annotation sessions with the status “in progress” each reviewer on their project can have.
 
-Further, detailed progress bar information is now for available for all users conducting screening and annotation.
+Further, detailed progress bar information is now for available for all users conducting screening and annotation. For example, with "Team-Excluded studies" project administrators can choose to show or hide studies that have been sufficiently screened and excluded by reviewers in the project. 
 
-If you have any further questions, please contact us at [help.syrf@org.uk](help.syrf@org.uk) 
+If you have any further questions, please contact us using the contact form [here](../contact-us.html).
