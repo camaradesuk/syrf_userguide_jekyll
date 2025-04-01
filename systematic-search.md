@@ -109,7 +109,7 @@ For more information on renaming files in Endnote please visit [Endnote's websit
 [Check out the FAQ](https://syrf.org.uk/faq)
 
 ## View Project Studies
-You can now view project studies by clicking on the ‘Studies’ then 'All Studies' on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
+You can now view project studies by clicking on the "Sudies" then "All Studies" on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
 
 ## Bulk Update Studies feature
 You can update certain properties of the studies of your project:
@@ -120,11 +120,12 @@ You can update certain properties of the studies of your project:
     - Screening decisions
 
 
-Click "Studies" --> "All Studies" --> three dots at the top, next to the magnifying glass --> "Bulk update studies...". Make sure you follow the formatting instructions presented.
+To do this, click "Studies" --> "All Studies" --> three dots at the top, next to the magnifying glass --> "Bulk update studies...". Make sure you follow the formatting instructions presented.
 
 Keep in mind:
-- Include a column for Study ID
-- All other columns will be 
+- Including a column for Study ID is mandatory
+- You must also include at least one extra column. For example, customID
+- All other columns will be assumed to hold screening decisions
 - Limit your feature upload to the columns which are relevant to what you want to update 
 
 
