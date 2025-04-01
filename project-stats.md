@@ -10,11 +10,12 @@ parent: Stages
 
 The **Overview** tab under each project stage provides visual insights and detailed statistics for screening and annotation activities, helping you easily track progress.
 
-## Screening Stage
+## Screening 
+This section allows you to see the distribution of Screening within this New stage.
 
 ### Dual Screening
 
-The dual screening stage provides two distinct chart views:
+The dual screening section provides two distinct chart views:
 
 #### Basic View
 Displays overall screening progress across categories:
@@ -25,7 +26,9 @@ Displays overall screening progress across categories:
 - Triple Screened Completed (requires reconciliation)
 - Over Screened
 
+
 ![Screening Overview - Basic](figs/Fig_Project-Stats_Screening_CSI.png)
+
 
 #### Detailed View (Show Screening Decisions)
 Displays detailed screening decisions:
@@ -33,18 +36,24 @@ Displays detailed screening decisions:
 - Disagreements requiring reconciliation
 - Over screened studies with inclusion/exclusion decisions
 
+
 ![Screening Overview - Detailed](figs/Fig_Project-Stats_Screening2_CSI.png)
+
 
 **Hover over chart slices for exact study counts and percentages:**
 
+
 ![Hover Examples](figs/Fig_Project-Stats_Screening3_CSI.png) ![Hover Examples](figs/Fig_Project-Stats_Screening4_CSI.png)
+
 
 #### Screening Leaderboard
 The **Screening Leaderboard** table tracks each user's screening activities, providing:
 - Number of studies screened
 - Studies available/unavailable for screening
 
+
 ![Screening Leaderboard](figs/Fig_Project-Stats_Screening-table_CSI.png)
+
 
 ### Single Screening
 
@@ -58,9 +67,10 @@ Single screening offers similar basic and detailed views:
 - Detailed view:
   - Adds decisions for inclusion/exclusion.
 
-## Annotation Stage
+## Annotation
+This section allows you to see the distribution of Annotation within this New stage (if annotation is enabled).
 
-The annotation stage features two primary views:
+The annotation section features two primary views:
 
 #### Basic View
 Shows overall annotation progress, categorized by:
@@ -69,18 +79,24 @@ Shows overall annotation progress, categorized by:
 - Two Completed Reviews
 - Over Annotated
 
+
 ![Annotation Overview - Basic](figs/Fig_Project-Stats_Annotation_CSI.png)
+
 
 #### Detailed View ("Show All")
 Breaks down annotation progress by session completion status:
 - Complete Sessions (green)
 - Incomplete Sessions (orange; annotation started but unfinished)
 
+
 ![Annotation Overview - Detailed](figs/Fig_Project-Stats_Annotation2_CSI.png)
+
 
 **Hover over slices for exact study counts and session status:**
 
+
 ![Hover Examples](figs/Fig_Project-Stats_Annotation3_CSI.png) ![Hover Examples](figs/Fig_Project-Stats_Annotation4_CSI.png)
+
 
 #### Annotation Leaderboard
 The **Annotation Leaderboard** table provides user-specific annotation metrics, including:
@@ -88,7 +104,9 @@ The **Annotation Leaderboard** table provides user-specific annotation metrics, 
 - Reviews in progress
 - Studies available/unavailable for annotation
 
+
 ![Annotation Leaderboard](figs/Fig_Project-Stats_Annotation-table_CSI.png)
+
 
 ## Review Completion Criteria
 
@@ -105,5 +123,6 @@ The **Annotation Leaderboard** table provides user-specific annotation metrics, 
 |                            | ≥ 1 complete and ≥ 2 incomplete sessions                |
 |                            | ≥ 3 incomplete sessions                                 |
 
-**Note:** This view is optimized for stages configured with "Required Annotators per Study" set to 2. Thus, studies with ≥ 3 annotators are considered "over annotated".
+
+**Note:** This view is optimised for stages configured with "Required Annotators per Study" set to 2. Thus, studies with ≥ 3 annotators are considered "over annotated".
 

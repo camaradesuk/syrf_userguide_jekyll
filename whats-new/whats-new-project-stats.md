@@ -16,3 +16,4 @@ We have added a [Project Statistics](../project-stats.html) feature which descri
 
 ![New stage Overview](/figs/Fig_New-stage-Overview.png)
 
+
