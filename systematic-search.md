@@ -129,7 +129,7 @@ Keep in mind:
 - Limit your feature upload to the columns which are relevant to what you want to update 
 
 
-![Bulk Update Studies](figs/Fig_Bulk-Update-Studies.png) 
+![Bulk Update Study References](figs/Fig_Bulk-Update-Study.png) 
 
 
 If you do not have the Study ID:
@@ -140,7 +140,7 @@ Click "Data Export" on the left-hand side --> "Bibliographic" (Make sure that "S
 You will then be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply.
 
 
-![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Update-Studies-Screening.png)
+![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Update-Study-Screening.png)
  
 
 ## Deleting Systematic Searches
