@@ -8,7 +8,7 @@ permalink: whats-new
 
 # Bulk Update Study 
 
-We have added a [data-export](../systematic-search.html) feature which allows you to update certain properties of the studies of your project:
+We have added a [systematic-search](../systematic-search.html) feature which allows you to update certain properties of the studies of your project:
 
     - PDF relative path
     - Custom ID
