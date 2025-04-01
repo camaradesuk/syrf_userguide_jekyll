@@ -15,5 +15,6 @@ We have added a [systematic-search](../systematic-search.html) feature which all
     - Individual screenings
     - Screening decisions
 
+
 ![Bulk Update Studies](/figs/Fig_Bulk-Update-Studies.png)
 
