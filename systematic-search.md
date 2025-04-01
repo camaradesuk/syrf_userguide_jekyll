@@ -128,7 +128,7 @@ Keep in mind:
 - Limit your feature upload to the columns which are relevant to what you want to update 
 
 
-![Bulk Update Studies](figs/Fig_Bulk-Update-Studies.png)
+![Bulk Update Studies](figs/Fig_Bulk-Update-Studies.png) 
 
 
 If you do not have the Study ID:
