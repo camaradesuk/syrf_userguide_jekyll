@@ -111,12 +111,11 @@ For more information on renaming files in Endnote please visit [Endnote's websit
 ## View Project Studies
 You can now view project studies by clicking on the "Sudies" then "All Studies" on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
 
-## Bulk Update Studies feature
+## Bulk Study Update feature
 You can update certain properties of the studies of your project:
 
     - PDF relative path
     - Custom ID
-    - Individual screenings
     - Screening decisions
 
 
@@ -129,7 +128,7 @@ Keep in mind:
 - Limit your feature upload to the columns which are relevant to what you want to update 
 
 
-![Bulk Update Study References](figs/Fig_Bulk-Update-Study.png) 
+![Bulk Study Update  References](figs/Fig_Bulk-Update-Study.png) 
 
 
 If you do not have the Study ID:

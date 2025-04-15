@@ -12,9 +12,9 @@ We have added a [systematic-search](../systematic-search.html) feature which all
 
     - PDF relative path
     - Custom ID
-    - Individual screenings
     - Screening decisions
 
 
 ![Bulk Update Studies](/figs/Fig_Bulk-Update-Studies.png)
 
+This has been requested so that users can (what allows you to do/can be useful in x)
