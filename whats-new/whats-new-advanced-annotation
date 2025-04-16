@@ -16,6 +16,15 @@ We have updated SyRF’s functionality for stage annotation settings, especially
 Project administrators now have further configuration control over: 
 * Advanced stage settings, specifically annotation settings. For example, "Limit Incomplete Sessions" where project administrators can now limit how many annotation sessions with the status “in progress” each reviewer on their project can have.
 
+
+![Limit Incomplete Sessions](/figs/Fig_Stage-Advanced-settings-maximum-incomplete-sessions_NEW.png)
+
+
+
 Further, detailed progress bar information is now for available for all users conducting screening and annotation. For example, with "Team-Excluded studies" project administrators can choose to show or hide studies that have been sufficiently screened and excluded by reviewers in the project. 
 
-If you have any further questions, please contact us using the contact form [here](../contact-us.html).
+
+![Team-Excluded Studies](/figs/Fig_Stage-Advanced-settings-hide-excluded-studies_1_NEW.png)
+
+
+If you have any questions, please contact us using the contact form [here](../contact-us.html).
