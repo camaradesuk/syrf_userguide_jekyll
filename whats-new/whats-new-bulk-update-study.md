@@ -15,7 +15,7 @@ We have added a [systematic-search](../systematic-search.html) feature which all
     - Screening decisions
 
 
-![Bulk Update Studies](/figs/Fig_Bulk-Update-Studies.png)
+![Bulk Update Studies](/figs/Fig_Bulk-Study-Update.png)
 
 
 This has been requested so that users can update only certain sections of the systematic searches they upload, and to match screening decisions to screeners.

@@ -122,7 +122,10 @@ You can update certain properties of the studies of your project:
 To do this, click "Studies" &rarr; "All Studies" &rarr; three dots at the top, next to the magnifying glass &rarr; "Bulk update studies...". 
 Make sure you follow the formatting instructions presented.
 
-Keep in mind:
+#### File selection
+Select the file with the updates you want to make.
+
+Important notes:
 
 - Study ID column is required — each row must have a unique studyId.
 
@@ -140,12 +143,24 @@ If you do not have the Study ID:
 
 Click "Data Export" on the left-hand side &rarr; "Bibliographic" (Make sure that "SyRF systematic search import compatible format" is *un*ticked so Study ID is included) &rarr; "DOWNLOAD DATA"
 
+#### Column Mapping
 
-You will then be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply.
+You will get confirmation of the detected columns in your file. If there are any unexpected columns, go back to review your file and fix the column names before re-uploading the file.
+
+At this point you will be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply (if applicable).
 
 
-![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Study-Update-Screening.png)
+![Bulk Study Update Designate Screening](figs/Fig_Bulk-Study-Update-Screening.png)
+
  
+#### Review & Upload
+
+Finally, you will get a confirmation of the detected columns and, if applicable, the screening mapping from each column to the investigator.
+Keep in mind that this update is non-reversible.
+
+
+![Bulk Study Update Confirmation page](figs/Fig_Bulk-Study-Update-Confirmation.png)
+
 
 ## Deleting Systematic Searches
-If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
+If you need to delete your systematic search, you can do so in SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
