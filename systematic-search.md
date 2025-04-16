@@ -119,27 +119,32 @@ You can update certain properties of the studies of your project:
     - Screening decisions
 
 
-To do this, click "Studies" --> "All Studies" --> three dots at the top, next to the magnifying glass --> "Bulk update studies...". Make sure you follow the formatting instructions presented.
+To do this, click "Studies" &rarr; "All Studies" &rarr; three dots at the top, next to the magnifying glass &rarr; "Bulk update studies...". 
+Make sure you follow the formatting instructions presented.
 
 Keep in mind:
-- Including a column for Study ID is mandatory
-- You must also include at least one extra column. For example, customID
-- All other columns will be assumed to hold screening decisions
-- Limit your feature upload to the columns which are relevant to what you want to update 
+
+- Study ID column is required — each row must have a unique studyId.
+
+- At least one additional column is needed — e.g., customId, pdfRelativePath.
+
+- All other columns are treated as screening decisions — these will need to be mapped to team members and stages.
+
+- Only include columns you want to update — irrelevant ones should be excluded to avoid confusion.
 
 
-![Bulk Study Update  References](figs/Fig_Bulk-Update-Study.png) 
+![Bulk Study Update  References](figs/Fig_Bulk-Study-Update.png) 
 
 
 If you do not have the Study ID:
 
-Click "Data Export" on the left-hand side --> "Bibliographic" (Make sure that "SyRF systematic search import compatible format" is *un*ticked so Study ID is included) --> "DOWNLOAD DATA"
+Click "Data Export" on the left-hand side &rarr; "Bibliographic" (Make sure that "SyRF systematic search import compatible format" is *un*ticked so Study ID is included) &rarr; "DOWNLOAD DATA"
 
 
 You will then be able to map the columns designated for screening decisions to members of your project who you want those screening decisions to apply.
 
 
-![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Update-Study-Screening.png)
+![Bulk Update Studies Designate Screening](figs/Fig_Bulk-Study-Update-Screening.png)
  
 
 ## Deleting Systematic Searches
