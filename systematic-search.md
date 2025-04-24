@@ -156,7 +156,21 @@ At this point you will be able to map the columns designated for screening decis
 #### Review & Upload
 
 Finally, you will get a confirmation of the detected columns and, if applicable, the screening mapping from each column to the investigator.
-Keep in mind that this update is non-reversible.
+
+Keep in mind:
+
+•	This update can't be undone. Once applied, it will permanently change the current study data.
+
+•	The pdfRelativePath field in your CSV will replace the corresponding info in the existing study records. 
+(i.e., Blank fields in the update file will overwrite existing data, even if there’s already information in the system. So, a blank value will replace what's currently there.)
+
+•	If there’s a screening decision in the CSV by the same user on the same study, it will replace the one already in the system 
+(i.e., Screening data behaves differently: 
+Blank fields are ignored, so existing screening decisions won't be changed unless new ones are provided.)
+
+
+Therefore, please double-check your data—any updates you make here will overwrite existing info and you can't roll them back.
+
 
 
 ![Bulk Study Update Confirmation page](figs/Fig_Bulk-Study-Update-Confirmation.png)
