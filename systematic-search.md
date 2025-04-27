@@ -73,7 +73,7 @@ Please note that you cannot use the 'EndNote XML' export option in Zotero to upl
 
     **You can download a template with the correct column headings and example data [here](https://syrf.org.uk/assets/pdfs/Example_systematic_search_upload.csv).**
 
-3. Even if you don't have information for all the columns specified, **they will need to be in your file** to make the upload work. SyRF will accept empty fields for any of these variables. Most importantly, there should be two columns, one with the study ID and the PDF path (as explained below in the "Uploading Full-Text PDFs section).
+3. Even if you don't have information for all the columns specified, **they will need to be in your file** in order for the upload to succeed. SyRF will accept empty fields for any of these columns.
 
 4. If you would like to upload **screening decisions** already made outside of SyRF along with list of studies, you should **add separate columns for each user** and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.
 
@@ -89,7 +89,7 @@ Please note that you cannot use the 'EndNote XML' export option in Zotero to upl
 
 ## Uploading Full-Text PDFs
 
-If you require full-text PDFs for each of your studies at any stage of your SyRF project, __it is important that you have already retrieved these full-text PDFs before uploading your search file__, as they cannot be retroactively uploaded. 
+If you require full-text PDFs for each of your studies at any stage of your SyRF project, these can be linked at this point. Alternatively if the PDFs have not yet been retrieved, they can be added at a later point using the [**bulk study update** feature](#bulk-study-update) described below.
 
 
 In the systematic search file that you upload (.csv/.tsv spreadsheet or XML from Endnote) please ensure that the column “PDF Relative Path” contains **relative path** links (i.e., relative to the root of the folder you send to us) to your PDFs for each record. **Please ensure that the PDF folder corresponds to the XML file being uploaded.**
@@ -119,7 +119,7 @@ You can update certain properties of the studies of your project:
     - Screening decisions
 
 
-To do this, click "Studies" &rarr; "All Studies" &rarr; three dots at the top, next to the magnifying glass &rarr; "Bulk update studies...". 
+To do this, click "Studies" &rarr; "All Studies" &rarr; three dots at the top, next to the magnifying glass &rarr; "Bulk study update...". 
 Make sure you follow the formatting instructions presented.
 
 #### File selection
@@ -136,10 +136,10 @@ Important notes:
 - Only include columns you want to update — irrelevant ones should be excluded to avoid confusion.
 
 
-![Bulk Study Update  References](figs/Fig_Bulk-Study-Update.png) 
+![Bulk Study Update](figs/Fig_Bulk-Study-Update.png)
 
 
-If you do not have the Study ID:
+If you do not have the Study IDs of the study references you wish to update, you can download a CSV file of the bibliographic data of your studies from SyRF. To do this:
 
 Click "Data Export" on the left-hand side &rarr; "Bibliographic" (Make sure that "SyRF systematic search import compatible format" is *un*ticked so Study ID is included) &rarr; "DOWNLOAD DATA"
 
