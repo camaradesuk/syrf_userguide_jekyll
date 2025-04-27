@@ -20,8 +20,8 @@ If you searched multiple databases, your results likely contain duplicate studie
 Only **Project Administrators** can upload systematic searches.
 
 1. Navigate to your project.
-2. Go to **Project Settings**.
-3. Select **Systematic Searches**.
+2. Expand the **Studies** section on the project navigation pane on the left.
+3. Navigate to **Systematic Searches**.
 4. Click **Upload New Systematic Search**.
 
 ![Screenshot of the 'Upload New Systematic Search' button location](figs/Fig_Upload_search.png)
@@ -119,7 +119,15 @@ The SyRF team will upload the PDFs to the database, linking them to your studies
 * See [EndNote's guide on renaming PDFs](https://support.clarivate.com/Endnote/s/article/Rename-PDFs-in-EndNote?language=en_US) for more information.
 
 > **Two-Stage Reviewing & PDFs:**
-> If you only need PDFs for studies included after title/abstract screening, you can upload your initial search without PDF paths. After the initial screening stage, retrieve PDFs using your preferred means (e.g., EndNote). You can then use the [Bulk Study Update feature](#bulk-study-update-feature) to add `PDFRelativePath` information *only* for the included studies, then contact the SyRF team with the relevant PDFs. The PDFs will be uploaded and linked, making them accessible in subsequent stages from the review form.
+> If your workflow involves screening titles/abstracts first and you only need full-text PDFs for potentially relevant studies, follow this process:
+>
+> 1. Upload your initial systematic search results **without** `PDFRelativePath` information.
+> 2. Perform the first stage of screening (e.g., title and abstract) within SyRF.
+> 3. After identifying studies proceeding to full-text review, retrieve the necessary PDFs using your preferred method (e.g., EndNote's Find Full Text, library databases, manual downloads). Organize these PDFs into a folder structure.
+> 4. Use the [Bulk Study Update feature](#bulk-study-update-feature) to add the correct `PDFRelativePath` information **only** for those studies requiring full-text review.
+> 5. [Contact the SyRF team](#final-step-sending-pdfs-to-syrf) with the folder containing *only* the relevant PDFs, following the usual process.
+>
+> This ensures PDFs are linked and available within SyRF for subsequent stages (e.g. for annotation or data extraction).
 
 ## Viewing Uploaded Studies
 
@@ -153,11 +161,11 @@ This feature allows you to modify existing studies in your project *after* the i
     * **To get SyRF Study IDs:** Go to `Data Export` -> `Bibliographic`. Ensure "SyRF systematic search import compatible format" is *un*ticked. Click `DOWNLOAD DATA`. This file will include the `studyId` column along with the other current bibliographic data.
 3. **Include Only Columns to Update:** Besides `studyId`, your file should *only* contain columns for the data you wish to change (e.g., `pdfRelativePath`, `customId`, and/or screening decision columns). Remove any other bibliographic columns from the export file to avoid errors.
 4. **Enter Update Values:**
-    * **For `pdfRelativePath` or `customId`:** Enter the new value in the corresponding cell for each study you want to update. **Note:** Erasing a value in these columns *will erase* the existing value for that study property in SyRF.
+    * **For `pdfRelativePath` or `customId`:** Enter the new value in the corresponding cell for each study you want to update. **Note:** Leaving a cell blank (providing an empty value) for these columns *will erase* any existing value for that study property in SyRF.
     * **For Screening Decisions:**
         * Add columns named descriptively for each screener and stage (e.g., `Screener_Alice_TitleAbstract`, `Screener_Bob_FullText`).
         * Use `1` for inclusion and `0` for exclusion.
-        * **Note:** Leaving a cell blank in a screening column *will be ignored*; it will not erase existing decisions. However, new screening decisions will overwrite previous ones for the same user and study.
+        * **Note:** Empty cells in a screening column *will be ignored*; it will not erase existing decisions. However, new screening decisions will overwrite previous ones for the same user and study.
 
 **Upload Process:**
 
