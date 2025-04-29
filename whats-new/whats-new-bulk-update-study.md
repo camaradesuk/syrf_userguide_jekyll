@@ -1,21 +1,26 @@
 ---
-title: 27th Mar 2025
-has_children: true
-nav_order: 1
-layout: home
-permalink: whats-new
+title: "29th April 2025: New Feature - Bulk Study Update"
+has_children: false
+nav_order: 995 # Adjust order as needed
+layout: default # Or 'page' depending on your theme setup for content pages
+parent: What's New!
 ---
 
-# Bulk Update Study 
+# New Feature: Bulk Study Update
 
-We have added a [systematic-search](../systematic-search.html) feature which allows you to update certain properties of the studies of your project:
+We're excited to introduce the **Bulk Study Update** feature, a new tool for Project Administrators!
 
-    - PDF relative path
-    - Custom ID
-    - Screening decisions
+This powerful function allows you to efficiently modify key information for multiple existing studies within your project simultaneously. Using a simple CSV upload, you can now update:
 
+* **PDF Relative Paths:** Easily add or correct links to full-text PDFs, especially useful after an initial screening phase.
+* **Custom IDs:** Update your internal identifiers across several studies at once.
+* **Screening Decisions:** Import screening decisions made outside of SyRF (or correct existing ones) and map them precisely to the relevant screener and screening stage (e.g., Title/Abstract, Full Text).
 
-![Bulk Update Studies](/figs/Fig_Bulk-Study-Update.png)
+![Accessing Bulk Study Update via the '...' menu in All Studies](/figs/Fig_Bulk-Study-Update.png)
+*Access the Bulk Study Update feature from the 'All Studies' page.*
 
+This feature addresses common requests, making it easier to manage study data dynamically after the initial upload, particularly for linking PDFs in multi-stage reviews and integrating external screening work.
 
-This has been requested so that users can update only certain sections of the systematic searches they upload, and to match screening decisions to screeners.
+For detailed instructions on how to prepare your CSV file and use the feature, please see the [**Bulk Study Update section in the main guide**](../managing-references.html#51-using-the-bulk-study-update-feature).
+
+*(**Note:** Please replace `../managing-references.html` with the actual path to your main user guide page if it's different, and ensure the `#51-using-the-bulk-study-update-feature` anchor link correctly points to the Bulk Update section heading within that page).*
