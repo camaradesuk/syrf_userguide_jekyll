@@ -114,7 +114,7 @@ This spreadsheet output from a bibliographic data export will contain the unchan
   _(String)_
 
 - ##### **CustomId**
-  A string input by the user at the time of upload, which can be used to refer to the library. (Endnote library name, etc)
+  A string input by the user at the time of upload, which can be used for reference purposes outside of SyRF. (Endnote library name, etc)
 
   _(String)_
 
