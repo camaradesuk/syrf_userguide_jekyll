@@ -77,7 +77,9 @@ Follow these steps to export from EndNote Desktop:
 > **XML Upload Error?**
 > Refer to the [SyRF FAQ](https://syrf.org.uk/faq) for troubleshooting common XML upload issues.
 
-#### Option B: Using a Spreadsheet (CSV) (`.csv`)
+#### Option B: Using a Spreadsheet CSV (`.csv`) (With Optional Screening Decisions)
+
+> **Note:** This option is recommended if you are not using EndNote or if you want to include pre-existing screening decisions in your upload.
 
 You can prepare your reference list using spreadsheet software (like Microsoft Excel, Google Sheets, LibreOffice Calc) and save it as a `.csv` file.
 
