@@ -1,7 +1,7 @@
 ---
 title: "2nd Nov 2023: Quantitative Data Export Updates"
 has_children: false
-nav_order: 1
+nav_order: 996
 parent: What's New!
 layout: page
 permalink: whats-new/02-11-2023-quant-data
@@ -21,7 +21,7 @@ The following updates are of particular note to project administrators:
 New fields have been added for each screening data export:
 
 - ["DateTimeOfScreening" (long format)](../data-export/data-dictionary/screening-long.html#datetimeofscreening)
-- ["DateTimeOfScreenings" (wide format)](../data-export/data-dictionary/screening-wide.html#datetimeofscreenings).
+- ["DateTimeOfScreenings" (wide format)](../data-export/data-dictionary/screening-wide.html#datetimeofscreenings)
 
 This represents the date the screening was made by a given user.
 
