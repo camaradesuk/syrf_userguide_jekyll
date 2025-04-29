@@ -1,5 +1,5 @@
 ---
-title: "29th April 2025: New Feature - Bulk Study Update"
+title: "27th March 2025: New Feature - Bulk Study Update"
 has_children: false
 nav_order: 995 # Adjust order as needed
 layout: default # Or 'page' depending on your theme setup for content pages
@@ -21,6 +21,4 @@ This powerful function allows you to efficiently modify key information for mult
 
 This feature addresses common requests, making it easier to manage study data dynamically after the initial upload, particularly for linking PDFs in multi-stage reviews and integrating external screening work.
 
-For detailed instructions on how to prepare your CSV file and use the feature, please see the [**Bulk Study Update section in the main guide**](../managing-references.html#51-using-the-bulk-study-update-feature).
-
-*(**Note:** Please replace `../managing-references.html` with the actual path to your main user guide page if it's different, and ensure the `#51-using-the-bulk-study-update-feature` anchor link correctly points to the Bulk Update section heading within that page).*
+For detailed instructions on how to prepare your CSV file and use the feature, please see the [**Bulk Study Update section in the main guide**](../systematic-search.html#51-using-the-bulk-study-update-feature).
