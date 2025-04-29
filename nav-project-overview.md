@@ -16,10 +16,9 @@ Under Project Details on the right hand side of this page you can see:
 * **Project Visibility** - either public or private
 * **Project Access**- either administrator approval required for new members or approval not required for new members
 * **Creation Date** - the date the project was made
-* **Project IDs** - the unique project ID
+* **Project IDs** - the unique project ID. This refers to the whole project identifiers. You can find these inside your project on SyRF in the Project Overview section --> to the right under the header "Project IDs", as in the image below. Simply select it with your cursor, marking them in blue, to be able to copy them (please include these IDs in an email [when you send your pdfs](../systematic-search.html#uploading-full-text-pdfs)
 * **Systematic Searches** - details of studies added to the project (can be edited by administrators by clicking on the cog icon next to this heading)
 * **Members** - a list of members on the project (can be edited by administrators by clicking on the cog icon next to this heading)
-
 
 ![Example Project Overview](/figs/Fig_example_project.png)
 
