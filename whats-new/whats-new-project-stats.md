@@ -1,14 +1,14 @@
 ---
-title: What's New!
-has_children: true
+title: "25th Februaury 2024: Project Statistics"
+has_children: false
+parent: What's New!
 nav_order: 1
 layout: home
-permalink: whats-new
 ---
 
 # Project Statistics 
 
-We have added a [Project Statistics](../project-stats.html) feature which describes the Overview tab of a New stage:
+We have added a [Project Statistics](../stage-overview.html) feature which describes the Overview tab of a New stage:
 
 - Screening (dual and single)
 - Annotation
