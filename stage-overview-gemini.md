@@ -80,47 +80,45 @@ When a stage requires only one reviewer per study, the charts are simplified:
 
 * Toggling this view adds the decision breakdown, showing **Screened Once** studies separated by inclusion vs. exclusion decisions.
 * It also shows the decision breakdown for **Over Screened** studies.
-* *(The chart type, Pie or Bar, may vary depending on SyRF version/configuration for this specific view).*
-
 
 ## Annotation Progress
 
-If annotation (e.g., data extraction, quality assessment) is enabled for the stage, this section visualizes the progress. An "annotation session" typically refers to one user completing (or partially completing) the annotation form for one study.
+If annotation (e.g., data extraction, quality assessment) is enabled for the stage, this section visualizes the progress. An **"annotation session"** is tracked per stage and typically refers to one user completing (or partially completing) the annotation form designed for that specific stage for one study.
 
 ### Annotation Charts
 
 #### Basic View (Pie Chart)
 
-This chart summarizes the overall annotation completion status per study, based on the number of *completed* annotation sessions:
+This chart summarizes the overall annotation completion status per study within the current stage, based on the number of *completed* annotation sessions for this stage:
 
-* **No Completed Reviews:** No user has fully completed the annotation form for these studies. (They may have incomplete sessions).
-* **One Completed Review:** One user has fully completed the annotation form.
-* **Two Completed Reviews:** Two users have fully completed the annotation form. (This typically applies if 2 annotators are required).
-* **Over Annotated:** More than the required number of users have completed annotation for these studies. (See definition based on stage settings below).
+* **No Completed Reviews:** No user has fully completed this stage's annotation form for these studies. (They may have incomplete sessions for this stage).
+* **One Completed Review:** One user has fully completed this stage's annotation form.
+* **Two Completed Reviews:** Two users have fully completed this stage's annotation form. (This typically applies if 2 annotators are required for this stage).
+* **Over Annotated:** More than the required number of users have completed annotation for these studies in this stage. (See definition based on stage settings below).
 
 ![Annotation Overview - Basic View](figs/Fig_Project-Stats_Annotation_CSI.png)
 
 #### Detailed View (Bar Chart - "Show All")
 
-This view provides a more detailed breakdown by showing the status of *all* annotation sessions associated with studies, distinguishing between:
+This view provides a more detailed breakdown by showing the status of *all* annotation sessions associated with studies *for the current stage*, distinguishing between:
 
-* **Complete Sessions (Green):** Annotation forms that have been fully filled out and saved as complete by a user for a given study.
-* **Incomplete Sessions (Orange):** Annotation forms that have been started by a user for a study but not yet saved as complete.
+* **Complete Sessions (Green):** Annotation forms for this stage that have been fully filled out and saved as complete by a user for a given study.
+* **Incomplete Sessions (Orange):** Annotation forms for this stage that have been started by a user for a study but not yet saved as complete.
 
 ![Annotation Overview - Detailed View Showing All Sessions](figs/Fig_Project-Stats_Annotation2_CSI.png)
 
 #### Hover Information
 
-Hovering over slices or bars in the annotation charts provides exact study counts and percentages, often showing breakdowns of complete vs. incomplete sessions for the detailed view.
+Hovering over slices or bars in the annotation charts provides exact study counts and percentages, often showing breakdowns of complete vs. incomplete sessions for the detailed view *within this stage*.
 
 ![Hover Example - Basic Annotation View](figs/Fig_Project-Stats_Annotation3_CSI.png)
 ![Hover Example - Detailed Annotation View](figs/Fig_Project-Stats_Annotation4_CSI.png)
 
 ### Review Completion Criteria Table
 
-This table explains how the categories in the **Basic View** relate to the counts of **Complete** and **Incomplete** sessions shown in the **Detailed View ("Show All")**.
+This table explains how the categories in the **Basic View** relate to the counts of **Complete** and **Incomplete** sessions shown in the **Detailed View ("Show All")** *for the current stage*.
 
-| Basic View Category   | Corresponding Detailed Session Status Combinations                        |
+| Basic View Category   | Corresponding Detailed Session Status Combinations (within this stage) |
 | :-------------------- | :---------------------------------------------------------------------- |
 | No completed review   | 0 complete sessions and 0 incomplete sessions                           |
 |                       | 0 complete sessions and 1 incomplete session                            |
@@ -133,15 +131,15 @@ This table explains how the categories in the **Basic View** relate to the count
 |                       | ≥ 1 complete session and ≥ 2 incomplete sessions                        |
 |                       | 0 complete sessions and ≥ 3 incomplete sessions (if ≥3 users started)   |
 
-**Note:** The categories and the definition of "Over annotated" are based on the stage setting for **"Required Annotators per Study"**. The example table above is optimised for stages requiring **2** annotators. If a stage required 1 annotator, "One completed review" would be the target, and anything more might be considered "Over annotated".
+**Note:** The categories and the definition of "Over annotated" are based on the stage setting for **"Required Annotators per Study"** for this specific stage. The example table above is optimised for stages requiring **2** annotators. If a stage required 1 annotator, "One completed review" would be the target, and anything more might be considered "Over annotated".
 
 ### Annotation Leaderboard
 
-Similar to the screening leaderboard, this table tracks individual user contributions to annotation within the stage:
+Similar to the screening leaderboard, this table tracks individual user contributions to annotation *within the current stage*:
 
-* **Annotated:** The number of studies for which the user has completed an annotation session.
-* **In Progress:** The number of studies for which the user has started but not completed an annotation session.
-* **Available:** Studies available for the user to annotate.
-* **Unavailable:** Studies not currently available for the user to annotate (e.g., already annotated by them, not assigned, awaiting screening completion).
+* **Annotated:** The number of studies for which the user has completed an annotation session *in this stage*.
+* **In Progress:** The number of studies for which the user has started but not completed an annotation session *in this stage*.
+* **Available:** Studies available for the user to annotate *in this stage*.
+* **Unavailable:** Studies not currently available for the user to annotate *in this stage* (e.g., already annotated by them, not assigned, awaiting screening completion).
 
 ![Annotation Leaderboard Table](figs/Fig_Project-Stats_Annotation-table_CSI.png)
