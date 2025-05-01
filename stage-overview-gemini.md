@@ -8,7 +8,7 @@ parent: Stages
 
 # Stage Overview
 
-The **Overview** page, available within each stage (e.g., Title/Abstract Screening, Full Text Screening, Data Extraction), provides visual dashboards and detailed statistics for that stage's activities. It helps you monitor progress for both screening and annotation tasks (if applicable).
+The **Overview**, available within each stage (e.g., Title/Abstract Screening, Full Text Screening, Data Extraction), provides visual dashboards and detailed statistics for that stage's activities. It helps you monitor progress for both screening and annotation tasks (if applicable).
 
 ## Screening Progress
 
@@ -25,26 +25,33 @@ This chart gives a high-level summary of the screening status for all studies in
 * **Not Started:** No screening decisions have been recorded for these studies yet.
 * **Single Screened:** One reviewer has completed screening for these studies.
 * **Dual Screened Completed:** Two reviewers have screened these studies, and their decisions are in agreement (both included or both excluded).
-* **Dual Screened (Disagreement):** Two reviewers have screened these studies, but their decisions conflict. These studies require reconciliation.
-* **Triple Screened Completed:** A third reviewer (reconciler) has reviewed studies that were previously in disagreement.
-* **Over Screened:** More than the required number of reviewers (in this case, more than two, or more than three if reconciliation occurred) have screened these studies. This usually happens if screening assignments change or users screen beyond their assigned workload.
+* **Dual Screened (Disagreement):** Two reviewers have screened these studies, but their decisions conflict. These studies require an additional screening.
+* **Triple Screened Completed:** A third reviewer has reviewed studies that were previously in disagreement.
+* **Over Screened:** More than the required number of reviewers (in this case, more than two, or more than three if disagreement occurred) have screened these studies. This usually happens if screening assignments change or users screen beyond their assigned workload.
 
-![Screening Overview - Basic Dual Screening View](figs/Fig_Project-Stats_Screening_CSI.png)
+![Screening Overview - Basic Dual Screening Pie Chart View](figs/Fig_Project-Stats_Screening_CSI.png)
 
-#### Detailed View (Bar Chart - "Show Screening Decisions")
+#### Detailed View (Pie Chart - "Show Screening Decisions")
 
-Toggling this view provides a more granular breakdown, showing the *outcome* of the screening decisions:
+Toggling the **"Show screening decisions"** checkbox updates the visualization (in this case, to a detailed pie chart) to provide a more granular breakdown, showing the *outcome* of the screening decisions for different categories:
 
-* It separates **Single Screened** studies into those marked for inclusion vs. exclusion by the first reviewer.
-* It separates **Dual Screened Completed** studies into those agreed for inclusion vs. exclusion.
-* It continues to show studies in **Disagreement**.
-* It breaks down **Over Screened** studies by their final inclusion/exclusion status (if determined).
+* **Not Started:** Remains the same.
+* **Single Screened Included:** Studies screened by one reviewer, marked for inclusion.
+* **Single Screened Excluded:** Studies screened by one reviewer, marked for exclusion.
+* **Dual Screened Disagreed (requires tie-break):** Two reviewers have screened with conflicting decisions; reconciliation is pending.
+* **Dual Screened Included:** Two reviewers agreed on inclusion.
+* **Dual Screened Excluded:** Two reviewers agreed on exclusion.
+* **Triple Screened Included:** Studies where an initial disagreement was resolved by a third reviewer, resulting in inclusion. *(Note: The legend might display "(requires reconciliation)" but this status typically indicates reconciliation is done).*
+* **Triple Screened Excluded:** Studies where an initial disagreement was resolved by a third reviewer, resulting in exclusion. *(Note: The legend might display "(requires reconciliation)" but this status typically indicates reconciliation is done).*
+* **Over Screened Included:** More than the required number of reviewers screened, resulting in inclusion.
+* **Over Screened Excluded:** More than the required number of reviewers screened, resulting in exclusion.
+* **Over Screened Disagreed:** More than the required number of reviewers screened, and their decisions still result in a disagreement state (e.g., complex reconciliation rules or >3 conflicting reviews).
 
-![Screening Overview - Detailed Dual Screening View](figs/Fig_Project-Stats_Screening2_CSI.png)
+![Screening Overview - Detailed Dual Screening Pie Chart View with Decisions](figs/Fig_Project-Stats_Screening2_CSI.png)
 
 #### Hover Information
 
-Hovering your mouse cursor over any slice in the pie chart or bar in the detailed chart reveals the exact number of studies and the corresponding percentage of the total studies in that category.
+Hovering your mouse cursor over any slice in the pie charts reveals the exact number of studies and the corresponding percentage of the total studies in that category.
 
 ![Hover Example - Basic View](figs/Fig_Project-Stats_Screening3_CSI.png) ![Hover Example - Detailed View](figs/Fig_Project-Stats_Screening4_CSI.png)
 
@@ -68,10 +75,11 @@ When a stage requires only one reviewer per study, the charts are simplified:
 * **Screened Once:** One reviewer has completed screening.
 * **Over Screened:** More than one reviewer has screened the study.
 
-#### Detailed View (Bar Chart - "Show Screening Decisions")
+#### Detailed View (Chart - "Show Screening Decisions")
 
-* This view adds the decision breakdown, showing **Screened Once** studies separated by inclusion vs. exclusion decisions.
+* Toggling this view adds the decision breakdown, showing **Screened Once** studies separated by inclusion vs. exclusion decisions.
 * It also shows the decision breakdown for **Over Screened** studies.
+* *(The chart type, Pie or Bar, may vary depending on SyRF version/configuration for this specific view).*
 
 *(Screenshots for Single Screening views would be placed here if available)*
 
@@ -99,7 +107,7 @@ This view provides a more detailed breakdown by showing the status of *all* anno
 * **Complete Sessions (Green):** Annotation forms that have been fully filled out and saved as complete by a user for a given study.
 * **Incomplete Sessions (Orange):** Annotation forms that have been started by a user for a study but not yet saved as complete.
 
-![Annotation Overview - Detailed View](figs/Fig_Project-Stats_Annotation2_CSI.png)
+![Annotation Overview - Detailed View Showing All Sessions](figs/Fig_Project-Stats_Annotation2_CSI.png)
 
 #### Hover Information
 
@@ -135,4 +143,4 @@ Similar to the screening leaderboard, this table tracks individual user contribu
 * **Available:** Studies available for the user to annotate.
 * **Unavailable:** Studies not currently available for the user to annotate (e.g., already annotated by them, not assigned, awaiting screening completion).
 
-![Annotation Leaderboard Table](figs/Fig_Project-Stats_Annotation-table_CSI.png) ---
+![Annotation Leaderboard Table](figs/Fig_Project-Stats_Annotation-table_CSI.png) ```
