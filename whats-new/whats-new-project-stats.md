@@ -21,4 +21,4 @@ This new page provides insightful dedicated dashboards giving you a focused view
 
 The Stage Overview page provides greater granularity, allowing you to pinpoint progress and potential bottlenecks within specific phases of your review or data extraction process.
 
-For a full explanation of all the charts, metrics, and views available on this new page, please see the detailed guide: [**Stage Overview Guide**](/figs/Fig_New-stage-Overview.png).
+For a full explanation of all the charts, metrics, and views available on this new page, please see the detailed guide: [**Stage Overview Guide**](../stage-overview.html).
