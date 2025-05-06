@@ -40,14 +40,15 @@ $base-button-color: #f7f7f7 !default;
   background-size: contain;
   text-indent: -1000em;
   background-color: $sidebar-color;
+	margin-top:6px;
 }
 .site-nav {
   padding-top: 0;
 }
 @media (min-width: 50rem) {
   .site-header {
-    height: 0;
-    max-height: fit-content
+    height: fit-content;
+    max-height: fit-content;
     border-bottom: 1px solid #eeebee;
   }
 }

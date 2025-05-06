@@ -1,7 +1,7 @@
 ---
-title: "27th March 2025: New Feature - Bulk Study Update"
+title: "27th Mar 2025: Bulk Study Update"
 has_children: false
-nav_order: 995 # Adjust order as needed
+nav_order: 994 # Adjust order as needed
 layout: default # Or 'page' depending on your theme setup for content pages
 parent: What's New!
 ---
