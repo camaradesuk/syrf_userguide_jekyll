@@ -155,11 +155,21 @@ You can link full-text PDFs to the studies in SyRF. This allows reviewers to acc
 
 **This is a separate, manual step required after uploading your reference file.**
 
-1. **After** successfully uploading your `.xml` or `.csv` file containing the `PDFRelativePath` information:
-2. **Compress:** Compress the *entire main PDF folder* (the one containing all your PDFs and subfolders, matching the structure used for relative paths) into a single compressed file (e.g., `.zip`, `.7z`).
-3. **Share:** Upload this compressed folder to a secure file-sharing service (e.g., Google Drive, Dropbox, OneDrive, institutional file share).
-4. **Notify SyRF:** Email the SyRF Helpdesk ([helpdesk@syrf.org.uk](mailto:helpdesk@syrf.org.uk)) with the following information:
-    * Your SyRF **Project Name**.
+1.  **After** successfully uploading your `.xml` or `.csv` file containing the `PDFRelativePath` information:
+2.  **Compress:** Compress the *entire main PDF folder* (the one containing all your PDFs and subfolders, matching the structure used for relative paths) into a single compressed file (e.g., `.zip`, `.7z`).
+3.  **Share:** Upload this compressed folder to a secure file-sharing service (e.g., Google Drive, Dropbox, OneDrive, institutional file share).
+4.  **Notify SyRF:** Email the SyRF Helpdesk ([helpdesk@syrf.org.uk](mailto:helpdesk@syrf.org.uk)) with the following information:
+    * The **email address** you used to create your SyRF account.
+    * **Project IDs** [found on the project overview page](./nav-project-overview.html#project_ids).
+    * **Project Name**
+    * **Search ID:**
+    > *How to find it:*
+    1.  Go to the **Systematic Searches** page within your SyRF project. You can find this under the **Studies** section in the left-hand navigation panel.
+    2.  This page lists all your systematic searches. Locate the specific search you need the ID for.
+    3.  To the right of that search entry, click the **three dots icon**.
+    4.  An option labelled "**Copy search ID**" will appear (as shown in the image below). Click it to copy the ID to your clipboard.
+    ![Screenshot showing how to copy the Search ID](figs/search_id.png)
+
     * A **shareable link** to the compressed folder containing your PDFs. Ensure the link provides access permission to the SyRF team.
     * Confirmation that your recently uploaded Systematic Search file (`.xml` or `.csv`) includes the correct `PDFRelativePath` data matching the structure in the compressed folder.
 

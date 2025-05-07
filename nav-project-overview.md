@@ -16,12 +16,12 @@ Under Project Details on the right hand side of this page you can see:
 * **Project Visibility** - either public or private
 * **Project Access**- either administrator approval required for new members or approval not required for new members
 * **Creation Date** - the date the project was made
-* **Project IDs** - the unique project ID
+* **Project IDs** - <span id="project_ids">the unique project IDs (click to copy to clipboard)</span>
 * **Systematic Searches** - details of studies added to the project (can be edited by administrators by clicking on the cog icon next to this heading)
 * **Members** - a list of members on the project (can be edited by administrators by clicking on the cog icon next to this heading)
 
 
-![Example Project Overview](/figs/Fig_example_project.png)
+![Example Project Overview](/figs/project_id.png)
 
 ### Getting Started
 You can screen or annotate studies by clicking on the stage name then 'Review' tab (on the left-hand side of the navigation pane). On the stage overview page you can expand the stage details and click the 'Review' button.  
