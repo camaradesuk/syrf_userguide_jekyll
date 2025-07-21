@@ -74,7 +74,7 @@ Read more about [Systematic Search formats here]({{ site.baseurl }}{% link syste
 &nbsp;
 
 ### How to update studies
-The Bulk Study Update feature's button is now located near the Upload New Systematic Search button. 
+The Bulk Study Update feature's button is located near the "Upload New Systematic Search" button. 
 Click the button and follow the instruction in the dialog box.
 Read more about [Updating studies]({{ site.baseurl }}{% link manage-studies.md %}).
 

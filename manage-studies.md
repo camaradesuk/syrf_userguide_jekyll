@@ -24,11 +24,16 @@ This powerful feature allows Project Administrators to modify data for *existing
 
 ### How to Access Bulk Update
 
-1. Navigate to **Studies** -> **All Studies**.
-2. Click the **three dots icon** (...) located next to the search magnifying glass above the study list.
-3. Select **Bulk study update...** from the dropdown menu.
+Navigate to **Studies** -> **Study Management**.
+Click on the "Bulk Study Update" button to start the process.  
 
-    ![Screenshot showing location of Bulk Study Update option](figs/Fig_Bulk-Study-Update.png)
+
+![Bulk Update](/figs/Fig_Bulk-Study-Update-Button.png){: style="border: 2px solid #ccc; padding:10px;"}
+
+"Bulk Update Study References" dialog will be opened. 
+
+
+![Screenshot showing location of Bulk Study Update option](figs/Fig_Bulk-Study-Update.png)
 
 ### Preparing Your Update File (CSV)
 

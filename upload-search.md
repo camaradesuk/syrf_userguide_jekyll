@@ -20,8 +20,10 @@ Only **Project Administrators** can upload new Systematic Searches. The upload p
 
 1. Navigate to the desired project within SyRF.  
 2. In the left-hand project navigation panel, expand the **Studies** section.  
-3. Click on **Systematic Searches**.  
-4. Click the **\+ Upload New Systematic Search** button to launch the wizard.
+3. Click on **Study Management**.  
+4. Click the **Upload New Systematic Search** button to launch the wizard.
+![Search Upload](/figs/search_upload_button_location.png){: style="border: 2px solid #ccc; padding:10px;"}
+
 
 ## Wizard Step 1: Basic Information
 
