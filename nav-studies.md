@@ -67,7 +67,7 @@ Clickable statuses (indicated with an animation) will direct you to the Job Prog
 
 ### How to upload a systematic search
 To start the upload click the "Upload New Systematic Search" button and follow the instructions in the dialog box.
-Read more about [Systematic Search formats here]({{ site.baseurl }}{% link systematic-search.md %}).
+Read more about [Study Management]({{ site.baseurl }}{% link study-management.md %}).
 
 ![Search Upload](/figs/Fig_Search_Upload.png){: style="border: 2px solid #ccc; padding:10px;"}
 
