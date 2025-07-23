@@ -1,5 +1,5 @@
 ---
-title: Upload Search
+title: Upload Systematic Search
 parent: Study Management
 nav_order: 2
 layout: page
@@ -70,6 +70,21 @@ This is the final confirmation step.
 SyRF will now process and import your file. This may take a few moments depending on the number of references.
 
 Upon successful upload, the new Systematic Search will appear in the list on the **Systematic Searches** page, and the included studies will be added to your project's **All Studies** list.
+
+---
+
+## Video Guide
+
+<br/>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/e6blmlaPrNA?list=PLT9yacSnQZW85roKzVqoC11OiXm9pob-4"
+            title="SyRF Guide: Uploading a Systematic Search"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+    </iframe>
+</div>
 
 ---
 

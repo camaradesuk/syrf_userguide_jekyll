@@ -1,5 +1,5 @@
 ---
-title: Managing Studies
+title: Bulk Update Studies
 parent: Study Management
 nav_order: 5
 layout: page
