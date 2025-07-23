@@ -7,7 +7,7 @@ layout: page
 
 # Study Management
 
-This guide covers how to manage Systematic Searches in your SyRF project. On the Study Management page, project administrators can upload, organize, monitor, and update study references throughout the systematic review process.
+This guide covers how to manage studies in your SyRF project. On the Study Management page, project administrators can upload, organize, monitor, and update study references throughout the systematic review process.
 
 ## Accessing Study Management
 
@@ -79,7 +79,7 @@ This table displays all studies currently imported into your project. You can so
 **1.2 Delete a Systematic Search** 
 > **⚠️ Warning:** This action cannot be undone. This will remove the systematic search from this project and all screenings, annotations and outcome data for studies in this search will be lost.
 
-Click the red delete button (trash icon) in the Actions column. 
+Click the red delete button (trash icon) in the actions column. 
 
 ![Study Management Interface](figs/Fig_search-delete-start.png){: style="border: 2px solid #ccc; padding:10px;"}
 
@@ -87,12 +87,12 @@ This will open the dialog box for confirmation. Type the reseach name into the t
 
 
 **1.3 Run Risk of Bias Assessment**  
-To start a Risk of Bias assessment on a search use the checkboxes in the first column. You can select a single search, multiple searches or you can select all the searches . When you make a selection you will see a button with a text that shows the number of selected studies. e.g. "2 selected". Click on the button to get access to run risk of bias assessment.
+To start a Risk of Bias assessment on a search use the checkboxes in the first column. You can select a single search, multiple searches or you can select all the searches . When you make a selection you will see a button with a text that shows the number of selected studies. e.g. "2 selected". Click on the button to get access to risk of bias assessment.
 
 
 ![Risk Of Bias 3](/figs/Fig_Risk-Of-Bias-3.png){: style="border: 2px solid #ccc; padding:10px;"}
 
-
+Click the button that shows the number of selected searches. E.g. "2 selected" in the screenshot.
 ![Risk Of Bias 1](/figs/Fig_Risk-Of-Bias-1.png){: style="border: 2px solid #ccc; padding:10px;"}
 
 

@@ -104,4 +104,4 @@ Project Administrators can remove an entire Systematic Search upload and all ass
 * **[Preparing References](prepare-references.html)** - How to prepare your reference files
 * **[Upload Search](upload-search.html)** - How to upload your systematic search
 * **[Managing PDFs](manage-pdfs.html)** - How to add and manage PDF files
-* **[View Studies](view-studies.html)** - How to view your uploaded studies
+* **[View Studies](study-management.html#11-view-studies-in-a-systematic-search)** - How to view your uploaded studies

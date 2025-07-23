@@ -74,4 +74,4 @@ This targeted approach ensures PDFs are available when needed for full-text revi
 
 * **[Upload Search](upload-search.html)** - How to upload your systematic search file
 * **[Manage Studies](manage-studies.html)** - Bulk updates and post-upload management
-* **[View Studies](view-studies.html)** - How to view your uploaded studies
+* **[View Studies](study-management.html#11-view-studies-in-a-systematic-search)** - How to view your uploaded studies
