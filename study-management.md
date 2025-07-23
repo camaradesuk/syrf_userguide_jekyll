@@ -7,92 +7,78 @@ layout: page
 
 # Study Management
 
-This comprehensive guide covers everything you need to manage Systematic Searches in your SyRF project. Study Management is where project administrators upload, organize, monitor, and maintain study references throughout the systematic review process.
+This guide covers how to manage Systematic Searches in your SyRF project. In Study Management page project administrators can upload, organise, monitor, and update study references throughout the systematic review process.
 
 ## What is Study Management?
 
-In SyRF, Systematic Searches are organized groups of references from your database searches (PubMed, Embase, Scopus, etc.).
+In SyRF, Systematic Searches are organised groups of references from your database searches.
 
 The Study Management interface provides tools to:
 
-- Upload new systematic searches
-- Monitor upload and processing progress
-- Update existing study data in bulk
-- Calculate Risk of Bias assessments
+- Upload systematic searches
+- Bulk update existing study data
+- Run Risk of Bias assessments
 - Manage PDF file associations
-- Delete systematic searches when needed
+- Monitor upload and processing progress
+- Delete systematic searches 
 
 ## Accessing Study Management
 
 {: .note }
 > **Administrator Access Required:** Study Management features are only available to project administrators.
 
-Navigate to **Studies** → **Study Management** in your project to access the administrative interface.
+After selecting a project,
+click on **Studies** button on the left navigation bar → then click on **Study Management** button to access the administrative interface.
 
 todo: add screenshot
 
 ## The Study Management Interface
 
-The Study Management page contains four main sections:
+The Study Management page contains three main sections:
 
 ### 1. Systematic Searches Table
 Your primary workspace showing all uploaded searches with:
 - **Action buttons**: Upload new searches and bulk update studies
-- **Search list**: View all systematic searches with status, study counts, and actions
 - **Bulk operations**: Select multiple searches for Risk of Bias calculations
 - **Progress indicators**: Real-time status updates with clickable links to detailed progress
+- **Overflow menu** View studies, delete Systematic Searches, run Risk of Bias assessment for a single search, copy the ID of a search
 
-For each systematic search, manage viewing, deletion, Risk of Bias calculations, and ID copying.
+
 
 ### 2. Risk of Bias Assessment Monitoring
-Track automated bias assessment jobs with detailed progress and error reporting.
+Track risk of bias assessment processes with detailed progress and error reporting.
 
 ### 3. Job Progress Monitoring  
 Real-time tracking of background processes including Systematic Serach Uploads, Bulk Study Updates with comprehensive error details.
 
 
-
-## Complete Workflow Overview
-
-```
-Prepare Files → Upload Search → Monitor Progress → Manage Studies → Calculate Risk of Bias
-      ↓              ↓              ↓              ↓                    ↓
-[File prep]    [Upload dialog] [Job tracking]  [Bulk updates]    [ROB assessment]
-```
-
-## Core Topics Covered
-
-* **[Preparing References](prepare-references.html):** File preparation, deduplication, and format requirements  
-* **[Uploading Systematic Searches](upload-search.html):** Step-by-step upload process and dialog navigation
-* **[Monitoring Upload Progress](monitoring-upload-progress.html):** Understanding status indicators and job tracking
-* **[Managing Studies Post-Upload](manage-studies.html):** Bulk Study updates, corrections, and study modifications
-* **[Managing PDF Files](manage-pdfs.html):** Linking studies to full-text PDFs and file organization
-* **[Viewing and Browsing Studies](view-studies.html):** Navigate uploaded studies and use search/filter tools
-* **[Risk of Bias Assessment](risk-of-bias-assessment.html):** Automated bias calculation and results management
-
-Multiple systematic searches can be managed within a single project, allowing you to handle results from different search strategies, database updates, or iterative search refinements.
-
-## Quick Start Guide
+## Quick Guide
 
 Choose your starting point based on your current situation:
 
-> **💡 New to SyRF uploads?** 
-> Start with [Preparing References](prepare-references.html) to learn file preparation, deduplication, and format requirements
+> **Prepare files for Systematic Search Upload**
+>
+> Start with  [Preparing References](prepare-references.html). Learn file preparation, deduplication, and format requirements.
 
-> **📂 Files ready to upload?** 
-> Jump to [Upload Process](upload-search.html) for step-by-step instructions
+> **Upload Systematic Sesrches with the prepared files**
+> 
+> Read [Systematic Search Upload Process](upload-search.html) for step-by-step instructions on how to upload systematic searches using a CSV or an XML file.
 
-> **📄 Need to add PDFs later?** 
-> Check [PDF Management](manage-pdfs.html) for file linking procedures  
+> **If you need to add PDFs later?**
+>
+> Check [PDF Management](manage-pdfs.html) to learn how you can link full-text PDFs to studies to give reviewers access to full text during screening and data extraction. 
 
-> **✏️ Updating existing data?** 
-> Use [Managing Studies Post-Upload](manage-studies.html) for bulk updates
+> **If you need to update existing data**
+>
+> Use [Managing Studies Post-Upload](manage-studies.html) to modify existing studies that had been uploaded. This feature is useful for add or correc PDFRelativePath information, add or correct CustomID values and  Upload or modify screening decisions made outside of SyRF or correct existing screening decisions.
 
-> **🔍 Want to assess study quality?**
-> See [Risk of Bias Assessment](risk-of-bias-assessment.html) for automated calculations
+> **Calculate Risk of Bias**
+>
+> See [Risk of Bias Assessment](risk-of-bias-assessment.html) for details. DO WE NEED A PAGE??
 
-> **❌ Having upload issues?**
-> Review [Monitoring Upload Progress](monitoring-upload-progress.html) for troubleshooting
+> **Monitor the background processes**
+>
+> Review [Monitoring Upload Progress](monitoring-upload-progress.html). DO WE NEED A PAGE??
 
 ## Status Indicators Guide
 
@@ -104,7 +90,7 @@ Understanding the status indicators in the Study Management interface:
 | `Received` | File received, queued for processing | ✅ Yes | Click to monitor processing |
 | `Parsing` | Converting data into SyRF format | ✅ Yes | Click for parsing details |
 | `Complete` | Upload successfully finished | ❌ No | Search is ready for use |
-| `Error` | Upload failed | ✅ Yes | Click to view error details |
+| `Error` | Upload failed | ✅ Yes ??? | Click to view error details |
 
 ## Video Guide
 
@@ -121,37 +107,6 @@ Understanding the status indicators in the Study Management interface:
 
 ---
 
-## Navigation Guide
 
-Use the left navigation menu to access detailed guides for each aspect of study management. Each subsection provides comprehensive instructions, best practices, and troubleshooting tips.
-
-**Start with the basics:**
-1. [Getting Started](getting-started-study-management.html) - Core concepts and terminology
-2. [Preparing References](prepare-references.html) - File preparation and formatting
-
-**Upload and monitor:**
-3. [Uploading Systematic Searches](upload-search.html) - Step-by-step upload process  
-4. [Monitoring Upload Progress](monitoring-upload-progress.html) - Track and troubleshoot uploads
-
-**Manage and maintain:**
-5. [Managing Studies Post-Upload](manage-studies.html) - Bulk updates and corrections
-6. [Managing PDF Files](manage-pdfs.html) - Link studies to full-text documents
-7. [Viewing and Browsing Studies](view-studies.html) - Navigate and search your studies
-
-**Advanced features:**
-8. [Risk of Bias Assessment](risk-of-bias-assessment.html) - Automated quality assessment
-
-## Common Workflows
-
-**First-time upload workflow:**
-Prepare Files → Upload → Monitor → Verify → Add PDFs → Calculate ROB
-
-**Ongoing maintenance workflow:**  
-Review Studies → Bulk Update → Monitor Jobs → Recalculate ROB
-
-**Troubleshooting workflow:**
-Check Status → Click Error Details → Review File Format → Re-prepare → Re-upload
-
----
 
 *Need help? Each subsection includes detailed troubleshooting and links to related topics.*
