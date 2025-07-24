@@ -7,7 +7,7 @@ layout: page
 
 # Study Management
 
-This guide covers how to manage studies in your SyRF project. On the Study Management page, project administrators can upload, organize, monitor, and update study references throughout the systematic review process.
+This guide covers how to manage studies in your SyRF project. On the Study Management page, project administrators can upload, organise, monitor, and update study references throughout the systematic review process.
 
 ## Accessing Study Management
 
@@ -35,28 +35,28 @@ These are the steps in a typical workflow when working with studies in your SyRF
 > 
 > Read the [Systematic Search Upload Process](upload-search.html) for step-by-step instructions on how to upload systematic searches using the CSV or XML files you created.
 
-> **Add PDFs later**
+> **Manage PDFs**
 >
 > Check [PDF Management](manage-pdfs.html) to learn how you can prepare and submit full-text PDFs to give reviewers access to full text during screening and data extraction. This involves preparing PDF relative paths and coordinating with the SyRF helpdesk to upload the files. 
 
-> **Update data for the studies you have uploaded**
+> **Update data for uploaded studies**
 >
 > Use [Bulk Study Update](manage-studies.html) to modify existing studies that have been uploaded. This feature is useful for adding or correcting PDF relative path information and custom ID values. You can also upload or modify screening decisions made outside of SyRF, or correct existing screening decisions.
 
 > **Calculate Risk of Bias**
 >
-> See [Risk of Bias Assessment](risk-of-bias-assessment.html) for details. DO WE NEED A PAGE??
+> See section [1.3 Run Risk of Bias Assessment](#run-risk-of-bias-assessment) below for detailed instructions on initiating risk of bias calculations.
 
 > **Monitor the background processes**
 >
-> Review [Monitoring Upload Progress](monitoring-upload-progress.html). DO WE NEED A PAGE??
+> See sections [2. Risk of Bias Assessment Monitoring](#risk-of-bias-assessment-monitoring) and [3. Job Progress Monitoring](#job-progress-monitoring) below for information on tracking upload progress and background processes. 
 
 ## What is Study Management?
 
 The Study Management interface provides you with the tools in the workflow described above. 
 
 {: .note }
-> **Important:** Whilst preparing references and managing PDFs are essential parts of study management in SyRF, these steps are performed outside of the Study Management interface itself. Reference preparation happens before upload using external tools, and PDF management involves coordinating with the SyRF helpdesk after upload. We include these steps in this guide because they are crucial prerequisites and follow-up tasks that directly support the study management workflow. The Study Management interface focuses on uploading, monitoring, and updating your systematic searches once they are prepared.
+> **Important:** Whilst preparing references and managing PDFs are essential parts of study management in SyRF, these steps are performed outside of the Study Management interface itself. Reference preparation happens before upload using external tools, and PDF management involves coordinating with the SyRF helpdesk after upload. We include these steps in this guide because they are crucial prerequisites and follow-up tasks that directly support the study management workflow.
 
 The interface contains three main sections:
 
@@ -72,6 +72,7 @@ Two main actions in the Systematic Searches table, [Upload Systematic Search](up
 The following actions are performed directly within the Systematic Searches table:
 
 **1.1 View Studies in a Systematic Search**
+{: #view-studies}
 
 Click the icon marked in the screenshot to view studies.
 ![Study Management Interface](figs/Fig_view-studies-from-systematic-search-table.png){: style="border: 2px solid #ccc; padding:10px;"}
@@ -80,7 +81,8 @@ Click the icon marked in the screenshot to view studies.
 This table displays all studies currently imported into your project. You can sort, filter, and search this list. You can also view the PDFs if available.
 
 
-**1.2 Delete a Systematic Search** 
+**1.2 Delete a Systematic Search**
+{: #delete-search}
 > **⚠️ Warning:** This action cannot be undone. This will remove the systematic search from this project, and all screenings, annotations and outcome data for studies in this search will be lost.
 
 Click the red delete button (trash icon) in the Actions column: 
@@ -92,7 +94,8 @@ This will open a dialogue box for confirmation. Type the research name into the 
 ![Study Management Interface](figs/Fig_search-delete-confirmation.png){: style="border: 2px solid #ccc; padding:10px;"}
 
 
-**1.3 Run Risk of Bias Assessment**  
+**1.3 Run Risk of Bias Assessment**
+{: #run-risk-of-bias-assessment}
 To start a Risk of Bias assessment on a search, use the checkboxes in the first column. You can select a single search, multiple searches, or all searches. When you make a selection, you will see a button with text that shows the number of selected studies (e.g., "2 selected"). Click this button to access the risk of bias assessment options:
 
 
@@ -109,11 +112,13 @@ Now click "Calculate Risk of Bias for Selected" to start the process:
 Alternatively, you can use the ellipsis menu at the end of each row to start the risk of bias calculation:
 ![Risk Of Bias 4](/figs/Fig_Risk-Of-Bias-4.png){: style="border: 2px solid #ccc; padding:10px;"}
 
-**1.4 Copy Systematic Search ID**  
+**1.4 Copy Systematic Search ID**
+{: #copy-search-id}
 Click the ellipsis symbol to access the overflow menu and select the button for copying the search ID:
 ![Study Management Interface](figs/Fig_copy-search-id.png){: style="border: 2px solid #ccc; padding:10px;"}
 
 **1.5 Status Indicators**
+{: #status-indicators}
 
 Understanding the status indicators in the Systematic Searches table:
 
@@ -127,10 +132,10 @@ Understanding the status indicators in the Systematic Searches table:
 
 *Error:* The upload has failed. Click this status to view detailed error information that can help troubleshoot the issue.
 
-### 2. Risk of Bias Assessment Monitoring
+### 2. Risk of Bias Assessment Monitoring {#risk-of-bias-assessment-monitoring}
 Track Risk of Bias Assessment processes with detailed progress and error reporting.
 
-### 3. Job Progress Monitoring  
+### 3. Job Progress Monitoring {#job-progress-monitoring}  
 
 
 The Job Progress table shows all running and completed background processes. Click the job name to view detailed progress information, or click the error count (if any) to view specific error details:
