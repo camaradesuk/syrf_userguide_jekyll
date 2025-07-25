@@ -10,13 +10,13 @@ parent: What's New!
 
 We've unified the management of studies in your SyRF project in the **Study Management** interface. 
 
-The updated interface now features three clearly organised main sections:
+The updated interface now features three main sections:
 
-* **Systematic Searches Table:** Your primary workspace where you can upload a new systematic search, bulk update existing studies, start risk of bias calculation, and the actions for viewing, deleting and copying the IDs of studies.
+* **Systematic Searches Table:** Your primary workspace where you can upload a new systematic search, bulk update existing studies including updating screening decisions and adding PDF relative links, initiate automated risk of bias assessment, and view and delete systematic searches from your project.
 
-* **Risk of Bias Assessment Monitoring:** Dedicated section for tracking Risk of Bias assessment processes with detailed progress reporting and comprehensive error reporting.
+* **Risk of Bias Assessment:** Dedicated section for tracking Risk of Bias assessment processes with detailed progress reporting and comprehensive error reporting.
 
-* **Job Progress Monitoring:** Real-time tracking of all background processes including Systematic Search Uploads and Bulk Study Updates, with enhanced error details.
+* **Job Progress Monitoring:** Real-time tracking of all background processes including Systematic Search Uploads and Bulk Study Updates.
 
 
 ### Key Improvements:

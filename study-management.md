@@ -7,7 +7,7 @@ layout: page
 
 # Study Management
 
-This guide covers how to manage studies in your SyRF project. On the Study Management page, project administrators can upload, organise, monitor, and update study references throughout the systematic review process.
+This guide covers how to manage studies in your SyRF project. From the Study Management page, project administrators can upload, organise, monitor, and update study references throughout the systematic review process.
 
 ## Accessing Study Management
 
@@ -56,7 +56,7 @@ These are the steps in a typical workflow when working with studies in your SyRF
 The Study Management interface provides you with the tools in the workflow described above. 
 
 {: .note }
-> **Important:** Whilst preparing references and managing PDFs are essential parts of study management in SyRF, these steps are performed outside of the Study Management interface itself. Reference preparation happens before upload using external tools, and PDF management involves coordinating with the SyRF helpdesk after upload. We include these steps in this guide because they are crucial prerequisites and follow-up tasks that directly support the study management workflow.
+> **Important:** Whilst preparing references and managing PDFs are essential parts of study management for a SyRF project, these steps are performed outside of the Study Management interface itself. Reference preparation happens before upload to SyRF using external tools, and PDF management involves coordinating with the SyRF helpdesk after upload. We include these steps in this guide because they are crucial prerequisites and follow-up tasks that directly support the study management workflow.
 
 The interface contains three main sections:
 
@@ -67,7 +67,7 @@ Your primary workspace showing all uploaded searches with:
 - **Progress indicators**: Real-time status updates with clickable links to detailed progress
 - **Overflow menu**: View studies, delete systematic searches, run Risk of Bias assessment for a single search, copy the ID of a search
 
-Two main actions in the Systematic Searches table, [Upload Systematic Search](upload-search.html) and [Bulk Study Update](manage-studies.html), have their dedicated pages, so the guides for these are not included here.
+Access guidance for [Upload Systematic Search](upload-search.html) and [Bulk Study Update](manage-studies.html) at these dedicated user guide sections.
 
 The following actions are performed directly within the Systematic Searches table:
 
@@ -89,7 +89,7 @@ Click the red delete button (trash icon) in the Actions column:
 
 ![Study Management Interface](figs/Fig_search-delete-start.png){: style="border: 2px solid #ccc; padding:10px;"}
 
-This will open a dialogue box for confirmation. Type the research name into the text field and click Delete to complete the process:
+This will open a dialogue box for confirmation. Type the systematic search name into the text field and click Delete to complete the process:
 
 ![Study Management Interface](figs/Fig_search-delete-confirmation.png){: style="border: 2px solid #ccc; padding:10px;"}
 
