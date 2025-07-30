@@ -6,13 +6,20 @@ nav_order: 9
 layout: page
 ---
 
+**Contents**
+
+* TOC
+{:toc}
+
+---
+
 # Study Management
 
 This guide covers how to manage studies in your SyRF project.
 
 ## Key Study Management Activities
 
-The following are essential activities for managing studies in your SyRF project:
+The following are key activities for managing studies in your SyRF project:
 
 1. **[Prepare files for systematic search upload](prepare-references.html)** - Start by preparing your CSV or XML files for upload, including deduplication and format requirements.
 
@@ -26,21 +33,18 @@ The following are essential activities for managing studies in your SyRF project
 
 <!-- 6. **Monitor background processes** - Track upload progress and background processes using the monitoring tools described in [sections 3.2](#2-risk-of-bias-assessment-monitoring) and [3.3](#3-job-progress-monitoring) below.  -->
 
-All of these steps are covered in detail in dedicated sub-pages.
+The guidance for these activities are covered in detail in dedicated sub-pages.
 
 
 
 ---
 
-## Accessing Study Management Interface
+## Study Management Interface
 
 {: .note }
 > **Administrator Access Required:** Study Management features are only available to project administrators.
 
-After selecting a project, click the **Studies** button in the left navigation bar:
-
-
-Then click **Study Management** to access the administrative interface:
+To access the study management interface, select a project, click the **Studies** button in the left navigation bar, then click **Study Management**
 
 ![Study Management Interface](figs/Fig_study-management-access-2.png){: style="border: 2px solid #ccc; padding:10px;"}
 
@@ -61,7 +65,7 @@ Your primary workspace showing all uploaded searches with:
 - **Progress indicators**: Real-time status updates with clickable links to detailed progress
 - **Overflow menu**: View studies, delete systematic searches, run Risk of Bias assessment for a single search, copy the ID of a search
 
-Access guidance for [Upload Systematic Search](upload-search.html), [Bulk Study Update](manage-studies.html), and [Calculate Risk of Bias](calculate-risk-of-bias.html) at these dedicated user guide sections.
+Access guidance for [Upload Systematic Search](upload-search.html), [Bulk Study Update](manage-studies.html), and [Calculate Risk of Bias](calculate-risk-of-bias.html) at dedicated user guide sections.
 
 The following actions are performed directly within the Systematic Searches table:
 
@@ -93,20 +97,6 @@ This will open a dialogue box for confirmation. Type the systematic search name 
 Click the ellipsis symbol to access the overflow menu and select the button for copying the search ID:
 ![Study Management Interface](figs/Fig_copy-search-id.png){: style="border: 2px solid #ccc; padding:10px;"}
 
-**Status Indicators**
-{: #status-indicators}
-
-Understanding the status indicators in the Systematic Searches table:
-
-*Uploading:* File transfer is currently in progress. This status is clickable and will show detailed progress information when selected.
-
-*Received:* The file has been received and is queued for processing. Click this status to monitor the processing progress.
-
-*Parsing:* The system is converting your data into SyRF format. This status is clickable to view parsing details.
-
-*Complete:* The upload has successfully finished and the search is ready for use. This status is not clickable as no further action is needed.
-
-*Error:* The upload has failed. Click this status to view detailed error information that can help troubleshoot the issue.
 
 ### 2. Risk of Bias Assessment Monitoring
 {: #2-risk-of-bias-assessment-monitoring}
@@ -124,6 +114,23 @@ When you click on an error count, a detailed error dialogue box opens showing sp
 
 ![Study Management Interface](figs/Fig_job-progress-table-error.png){: style="border: 2px solid #ccc; padding:10px;"}
 
+
+---
+
+**Status Indicators**
+{: #status-indicators}
+
+Understanding the status indicators in the Systematic Searches table:
+
+*Uploading:* File transfer is currently in progress. This status is clickable and will show detailed progress information when selected.
+
+*Received:* The file has been received and is queued for processing. Click this status to monitor the processing progress.
+
+*Parsing:* The system is converting your data into SyRF format. This status is clickable to view parsing details.
+
+*Complete:* The upload has successfully finished and the search is ready for use. This status is not clickable as no further action is needed.
+
+*Error:* The upload has failed. Click this status to view detailed error information that can help troubleshoot the issue.
 
 ---
 

@@ -5,16 +5,16 @@ nav_order: 6
 layout: page
 ---
 
-# Calculate Risk of Bias
-
-This guide covers how to initiate and monitor Risk of Bias assessments for your systematic searches in SyRF.
-
 **Contents**
 
 * TOC
 {:toc}
 
 ---
+
+# Calculate Risk of Bias
+
+This guide covers how to initiate and monitor Risk of Bias assessments for your systematic searches in SyRF.
 
 ## Running Risk of Bias Assessment
 

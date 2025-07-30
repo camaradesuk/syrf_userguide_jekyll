@@ -5,8 +5,6 @@ nav_order: 5
 layout: page
 ---
 
-# Managing Studies Post-Upload
-
 **Contents**
 
 * TOC
@@ -14,6 +12,7 @@ layout: page
 
 ---
 
+# Managing Studies Post-Upload
 ## Using the Bulk Study Update Feature
 
 This powerful feature allows Project Administrators to modify data for *existing* studies in bulk *after* they have been uploaded. It's useful for:

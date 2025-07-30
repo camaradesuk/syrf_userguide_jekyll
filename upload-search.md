@@ -5,14 +5,16 @@ nav_order: 2
 layout: page
 ---
 
-# Upload Process
-
-Only **Project Administrators** can upload new Systematic Searches. The upload process follows a wizard to guide you through importing your reference file. This is a **three-step** process for `.csv` files (Basic, Screening, and Upload) and a **two-step** process for `.xml` files (Basic and Upload, as the screening step is skipped).
-
 **Contents**
 
 * TOC
 {:toc}
+
+---
+
+# Upload Process
+
+Only **Project Administrators** can upload new Systematic Searches. The upload process follows a wizard to guide you through importing your reference file. This is a **three-step** process for `.csv` files (Basic, Screening, and Upload) and a **two-step** process for `.xml` files (Basic and Upload, as the screening step is skipped).
 
 ---
 
