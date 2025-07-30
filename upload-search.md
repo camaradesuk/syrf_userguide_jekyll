@@ -95,5 +95,5 @@ Upon successful upload, the new Systematic Search will appear in the list on the
 After uploading your search, you may want to:
 
 * **[Add PDFs](manage-pdfs.html)** - Link full-text PDFs to your uploaded studies
-* **[View Studies](study-management.html#11-view-studies-in-a-systematic-search)** - See your uploaded studies in the project
+* **[View Studies](study-management.html#view-studies)** - See your uploaded studies in the project
 * **[Manage Studies](manage-studies.html)** - Make bulk updates or corrections if needed

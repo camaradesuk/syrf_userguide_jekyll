@@ -27,7 +27,7 @@ The following are key activities for managing studies in your SyRF project:
 
 3. **[Manage PDFs](manage-pdfs.html)** - Coordinate with the SyRF helpdesk to provide full-text PDF access for reviewers during screening and data extraction.
 
-4. **[Update data for uploaded studies](manage-studies.html)** - Use Bulk Study Update to modify existing studies, add PDF paths, update custom IDs, or correct screening decisions.
+4. **[Update data for uploaded studies](manage-studies.html)** - Use Bulk Study Update to modify existing studies. You can **change screening decisions**, update PDF relative paths or custom IDs.
 
 5. **[Calculate Risk of Bias](calculate-risk-of-bias.html)** - Initiate risk of bias calculations and monitor assessment processes.
 
