@@ -1,13 +1,9 @@
 ---
-title: Upload Search
+title: Upload Systematic Search
 parent: Study Management
 nav_order: 2
 layout: page
 ---
-
-# Upload Process
-
-Only **Project Administrators** can upload new Systematic Searches. The upload process follows a wizard to guide you through importing your reference file. This is a **three-step** process for `.csv` files (Basic, Screening, and Upload) and a **two-step** process for `.xml` files (Basic and Upload, as the screening step is skipped).
 
 **Contents**
 
@@ -16,12 +12,20 @@ Only **Project Administrators** can upload new Systematic Searches. The upload p
 
 ---
 
+# Upload Process
+
+Only **Project Administrators** can upload new Systematic Searches. The upload process follows a wizard to guide you through importing your reference file. This is a **three-step** process for `.csv` files (Basic, Screening, and Upload) and a **two-step** process for `.xml` files (Basic and Upload, as the screening step is skipped).
+
+---
+
 ## Getting Started
 
 1. Navigate to the desired project within SyRF.  
 2. In the left-hand project navigation panel, expand the **Studies** section.  
-3. Click on **Systematic Searches**.  
-4. Click the **\+ Upload New Systematic Search** button to launch the wizard.
+3. Click on **Study Management**.  
+4. Click the **Upload New Systematic Search** button to launch the wizard.
+![Search Upload](/figs/search_upload_button_location.png){: style="border: 2px solid #ccc; padding:10px;"}
+
 
 ## Wizard Step 1: Basic Information
 
@@ -71,10 +75,25 @@ Upon successful upload, the new Systematic Search will appear in the list on the
 
 ---
 
+## Video Guide
+
+<br/>
+
+<div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/e6blmlaPrNA?list=PLT9yacSnQZW85roKzVqoC11OiXm9pob-4"
+            title="SyRF Guide: Uploading a Systematic Search"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+    </iframe>
+</div>
+
+---
+
 ## Next Steps
 
 After uploading your search, you may want to:
 
 * **[Add PDFs](manage-pdfs.html)** - Link full-text PDFs to your uploaded studies
-* **[View Studies](view-studies.html)** - See your uploaded studies in the project
+* **[View Studies](study-management.html#view-studies)** - See your uploaded studies in the project
 * **[Manage Studies](manage-studies.html)** - Make bulk updates or corrections if needed

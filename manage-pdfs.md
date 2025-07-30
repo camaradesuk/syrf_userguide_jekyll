@@ -5,14 +5,21 @@ nav_order: 3
 layout: page
 ---
 
-# Managing Full-Text PDFs
-
-You can link full-text PDFs to the studies in SyRF. This allows reviewers to access the full text directly during screening or data extraction. PDFs are linked using the `PDFRelativePath` field/column in your upload file and then uploaded separately to SyRF storage.
-
 **Contents**
 
 * TOC
 {:toc}
+
+
+---
+
+# Managing Full-Text PDFs
+
+> **Important:** Managing PDFs is important for study management in your SyRF project.
+This step involves coordination with the SyRF helpdesk after upload. 
+
+
+You can link full-text PDFs to the studies in SyRF. This allows reviewers to access the full text directly during screening or data extraction. PDFs are linked using the `PDFRelativePath` field/column in your upload file and then uploaded separately to SyRF storage.
 
 ---
 
@@ -74,4 +81,4 @@ This targeted approach ensures PDFs are available when needed for full-text revi
 
 * **[Upload Search](upload-search.html)** - How to upload your systematic search file
 * **[Manage Studies](manage-studies.html)** - Bulk updates and post-upload management
-* **[View Studies](view-studies.html)** - How to view your uploaded studies
+* **[View Studies](study-management.html#11-view-studies-in-a-systematic-search)** - How to view your uploaded studies

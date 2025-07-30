@@ -21,4 +21,4 @@ This powerful function allows you to efficiently modify key information for mult
 
 This feature addresses common requests, making it easier to manage study data dynamically after the initial upload, particularly for linking PDFs in multi-stage reviews and integrating external screening work.
 
-For detailed instructions on how to prepare your CSV file and use the feature, please see the [**Bulk Study Update section in the main guide**](../systematic-search.html#51-using-the-bulk-study-update-feature).
+For detailed instructions on how to prepare your CSV file and use the feature, please see the [**Bulk Study Update section in the main guide**](../study-management.html#51-using-the-bulk-study-update-feature).

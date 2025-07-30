@@ -5,16 +5,20 @@ nav_order: 1
 layout: page
 ---
 
-# Preparing References Before Upload
-
-Before uploading your references to SyRF, perform these essential preparation steps:
 
 **Contents**
 
 * TOC
 {:toc}
 
+# Preparing References Before Upload
+{: .note }
+> **Important:** Preparing references is an essential part of study management for a SyRF project. However this step is performed outside of SyRF, using external tools, and happens before upload to SyRF.
+
 ---
+
+Before uploading your references to SyRF, perform these essential preparation steps:
+
 
 ## 1. Deduplicate Your Search Results
 
